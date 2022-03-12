@@ -20,6 +20,8 @@ public class NotOrtalamasiHesaplayan {
         int toplam=mat+fizik+kimya+turkce+tarih+muzik;
         double ortalama=toplam/6d;
         System.out.println("Ortalamanız:"+ortalama);
+        String sonuc=(ortalama<60)? "Kaldı":"Geçti";
+        System.out.println(sonuc);
 
     }
 }
