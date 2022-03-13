@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class DaireDilimiAlani {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        System.out.print("Yarıçapı giriniz: ");
+        double r=input.nextDouble();
+        System.out.print("Merkez açısının ölçüsünü giriniz: ");
+        double alfa=input.nextDouble();
+        double pi=314;
+        double alan= (pi* (r*r) * pi) / 360;
+        System.out.println("ALAN:"+alan);
+    }
+}
